@@ -6,7 +6,7 @@ package proyecto.overcooked.fide;
 
 /**
  *
- * @author Gabriel
+ * @author Racha
  */
 public class Main {
     public static void main(String[] args) {
