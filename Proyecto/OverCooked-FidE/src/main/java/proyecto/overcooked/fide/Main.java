@@ -11,5 +11,6 @@ package proyecto.overcooked.fide;
 public class Main {
     public static void main(String[] args) {
         System.out.println("Hello World!, esta es la prueba");
+        System.out.println("Hello World!, esta es la prueba");
     }
 }
