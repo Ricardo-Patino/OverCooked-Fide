@@ -16,6 +16,7 @@ que están en una cinta transportadora.
 El jugador tiene 5 minutos para preparar la mayor cantidad de órdenes posibles antes de que se
 acabe el tiempo. El tiempo es visible para el jugador en todo momento.
 
+
 ## Cinta Transportadora
 
 La cinta transportadora puede tener 5 ingredientes sobre ella a la vez. Se mueve de derecha a
