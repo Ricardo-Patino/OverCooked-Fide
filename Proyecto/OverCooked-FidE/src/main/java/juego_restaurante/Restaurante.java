@@ -4,6 +4,9 @@
  */
 package juego_restaurante;
 
+import java.awt.Dimension;
+import java.awt.Toolkit;
+
 /**
  *
  * @author Gabriel
@@ -16,7 +19,17 @@ public class Restaurante extends javax.swing.JFrame {
     public Restaurante() {
         initComponents();
     }
+    //Obtiene el tamaño de la pantalla del ordenador
+    @Override
+    public void setLocation(int x, int y) {
+        Dimension dim = Toolkit.getDefaultToolkit().getScreenSize();
+        x=2-this.getSize().width/2;
+        y=2-this.getSize().height/2;
+        super.setLocation(dim.width/x, dim.height/y);
+    }
 
+    
+    
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
@@ -26,17 +39,39 @@ public class Restaurante extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        background_juego = new javax.swing.JPanel();
+
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setBackground(new java.awt.Color(0, 0, 0));
+        setLocation(new java.awt.Point(0, 0));
+        setLocationByPlatform(true);
+        setName("Frame_Juego_parte1"); // NOI18N
+        setPreferredSize(new java.awt.Dimension(768, 576));
+        setResizable(false);
+        setSize(new java.awt.Dimension(768, 576));
+
+        background_juego.setBackground(new java.awt.Color(0, 0, 0));
+
+        javax.swing.GroupLayout background_juegoLayout = new javax.swing.GroupLayout(background_juego);
+        background_juego.setLayout(background_juegoLayout);
+        background_juegoLayout.setHorizontalGroup(
+            background_juegoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 768, Short.MAX_VALUE)
+        );
+        background_juegoLayout.setVerticalGroup(
+            background_juegoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 576, Short.MAX_VALUE)
+        );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 400, Short.MAX_VALUE)
+            .addComponent(background_juego, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 300, Short.MAX_VALUE)
+            .addComponent(background_juego, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
 
         pack();
@@ -76,5 +111,6 @@ public class Restaurante extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JPanel background_juego;
     // End of variables declaration//GEN-END:variables
 }
