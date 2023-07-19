@@ -28,7 +28,6 @@ public class Reloj_arena extends Entidades{
     public void setValoresPorDefecto(){
         x= 34;
         y= 503;
-        velocidad=2;
         movimiento = "primera_imagen";
     }
     
@@ -80,33 +79,30 @@ public class Reloj_arena extends Entidades{
     
     public void update (){
         long tiempoActual = System.currentTimeMillis();
-        long tiempoTranscurrido = (tiempoActual - tiempoAnterior) / 1000;
-        if (tiempoTranscurrido == 2000) {
+        long tiempoTranscurrido = (tiempoActual - tiempoAnterior)/500;
+        if (tiempoTranscurrido == 0) {
             movimiento = "primera_imagen";
         }
-        if (tiempoTranscurrido == 4000) {
+        if (tiempoTranscurrido == 1) {
             movimiento = "segunda_imagen";
         }
-        if (tiempoTranscurrido == 6000) {
+        if (tiempoTranscurrido == 2) {
             movimiento = "tercera_imagen";
         }
-        if (tiempoTranscurrido == 8000) {
+        if (tiempoTranscurrido == 3) {
             movimiento = "cuarta_imagen";
         }
-        if (tiempoTranscurrido == 10000) {
+        if (tiempoTranscurrido == 4) {
             movimiento = "quinta_imagen";
         }
-        if (tiempoTranscurrido == 12000) {
+        if (tiempoTranscurrido == 5) {
             movimiento = "sexta_imagen";
         }
-        if (tiempoTranscurrido == 14000) {
+        if (tiempoTranscurrido == 6) {
             movimiento = "septima_imagen";
         }
-        if (tiempoTranscurrido > 14000) {
+        if (tiempoTranscurrido > 6) {
             tiempoAnterior = tiempoActual;
-        }else {
-            // Actualiza el tiempo anterior para que ocurra nuevamente después de 2000 segundos
-            tiempoAnterior += 2000000; // Agregar 2000 segundos en milisegundos
-        }
+        }  
     }
 }
