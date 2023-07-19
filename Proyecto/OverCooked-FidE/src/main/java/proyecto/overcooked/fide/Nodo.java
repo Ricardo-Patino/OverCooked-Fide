@@ -13,7 +13,7 @@ public class Nodo {
         this.dato=dato;
     }
 
-    public juego getDato() {
+    public Juego getDato() {
         return dato;
     }
 
