@@ -13,7 +13,7 @@ import juego_restaurante.Componentes_juego;
 
 /**
  *
- * @author Gabriel
+ * @author Racha
  */
 public class Reloj_arena extends Entidades{
     Componentes_juego cj;
@@ -46,7 +46,7 @@ public class Reloj_arena extends Entidades{
         }
     }
     
-    public void dibujar (Graphics2D g2){
+       public void dibujar (Graphics2D g2){
         
         BufferedImage imagen = null;
         switch (movimiento) {
