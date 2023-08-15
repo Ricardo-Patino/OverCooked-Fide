@@ -10,7 +10,7 @@ import juego_restaurante.Componentes_juego;
 
 /**
  *
- * @author Gabriel
+ * @author Racha
  */
 public class NPC_1 extends Entidades {
     public NPC_1(Componentes_juego cj) {
