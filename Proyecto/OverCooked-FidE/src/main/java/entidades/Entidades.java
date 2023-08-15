@@ -17,7 +17,7 @@ import java.awt.Rectangle;
 
 /**
  *
- * @author Gabriel
+ * @author Racha
  */
 public class Entidades {
     Componentes_juego cj;
