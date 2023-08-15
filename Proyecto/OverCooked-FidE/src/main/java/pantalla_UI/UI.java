@@ -22,7 +22,7 @@ import lista_Ingredientes.InventarioItem;
 
 /**
  *
- * @author Gabriel
+ * @author Minor
  */
 public class UI {
     
