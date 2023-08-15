@@ -7,8 +7,8 @@
     <packaging>jar</packaging>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.source>20</maven.compiler.source>
-        <maven.compiler.target>20</maven.compiler.target>
+        <maven.compiler.source>SU VERSION JAVA (7,8,11,12,13,14,15,16,17,18,19,20)</maven.compiler.source>
+        <maven.compiler.target>SU VERSION JAVA (7,8,11,12,13,14,15,16,17,18,19,20)</maven.compiler.target>
     </properties>
     <name>OverCooked-Fide</name>
 </project>
