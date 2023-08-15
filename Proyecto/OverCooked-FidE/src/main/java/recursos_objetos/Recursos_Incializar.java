@@ -21,7 +21,7 @@ import objeto.Objetos_Puerta;
 
 /**
  *
- * @author Gabriel
+ * @author Minor
  */
 
 public class Recursos_Incializar {
