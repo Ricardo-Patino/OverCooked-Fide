@@ -13,7 +13,7 @@ import javax.sound.sampled.FloatControl;
 
 /**
  *
- * @author Gabriel
+ * @author Racha
  */
 public class Musica {
     Clip clip;
