@@ -19,7 +19,7 @@ import tecleado_juego.Teclado;
 
 /**
  *
- * @author Gabriel
+ * @author Racha
  */
 public class Jugador extends Entidades {
     Teclado teclas;
