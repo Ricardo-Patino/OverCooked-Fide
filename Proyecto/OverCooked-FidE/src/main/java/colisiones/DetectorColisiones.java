@@ -9,7 +9,7 @@ import juego_restaurante.Componentes_juego;
 
 /**
  *
- * @author Gabriel
+ * @author Racha
  */
 public class DetectorColisiones {
     Componentes_juego cj;
