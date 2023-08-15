@@ -11,7 +11,7 @@ import juego_restaurante.Componentes_juego;
 
 /**
  *
- * @author Gabriel
+ * @author Racha
  */
 public class Teclado implements KeyListener {
     Componentes_juego cj;
