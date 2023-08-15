@@ -6,7 +6,7 @@ package renderizado_optimizado;
 
 /**
  *
- * @author Gabriel
+ * @author Minor
  */
 
 import java.awt.Graphics2D;
