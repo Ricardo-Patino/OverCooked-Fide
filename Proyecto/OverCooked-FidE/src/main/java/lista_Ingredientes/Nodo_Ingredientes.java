@@ -1,5 +1,10 @@
 package lista_Ingredientes;
 
+/**
+ *
+ * @author Racha
+ */
+
 public class Nodo_Ingredientes {
     private Manejador_Ingredientes dato;
     private Nodo_Ingredientes next;
