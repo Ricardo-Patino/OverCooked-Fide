@@ -8,7 +8,7 @@ import java.awt.image.BufferedImage;
 
 /**
  *
- * @author Gabriel
+ * @author Racha
  */
 public class Mosaicos {
 
