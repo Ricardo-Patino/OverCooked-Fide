@@ -1,5 +1,5 @@
 ##Link al juego completo
-[link](https://github.com/Ricardo-Patino/OverCooked-Fide/releases/tag/1.0.0)
+#[OverCooked](https://github.com/Ricardo-Patino/OverCooked-Fide/releases/tag/1.0.0)
 
 # OverCooked-Fide
 - Juego chef de un restaurante
