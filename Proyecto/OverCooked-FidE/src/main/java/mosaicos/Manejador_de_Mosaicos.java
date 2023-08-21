@@ -17,7 +17,7 @@ import renderizado_optimizado.Renderizado;
 
 /**
  *
- * @author Gabriel
+ * @author Racha
  */
 public class Manejador_de_Mosaicos {
     Componentes_juego cj;
