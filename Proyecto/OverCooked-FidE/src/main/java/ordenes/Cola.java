@@ -2,6 +2,11 @@ package ordenes;
 
 import java.awt.Graphics2D;
 
+/**
+ *
+ * @author Racha
+ */
+
 public class Cola {
     private Nodo frente;
     private Nodo ultimo;
