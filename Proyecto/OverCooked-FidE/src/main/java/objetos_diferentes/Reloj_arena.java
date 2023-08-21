@@ -14,7 +14,7 @@ import juego_restaurante.Componentes_juego;
 
 /**
  *
- * @author Gabriel
+ * @author Racha
  */
 public class Reloj_arena extends Objetos_diferentes{
     Componentes_juego cj;
