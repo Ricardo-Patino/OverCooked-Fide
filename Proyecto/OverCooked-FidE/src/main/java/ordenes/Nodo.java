@@ -1,5 +1,10 @@
 package ordenes;
 
+/**
+ *
+ * @author Racha
+ */
+
 public class Nodo {
     private Tiquetes_Ordenes dato;
     private Nodo atras;
