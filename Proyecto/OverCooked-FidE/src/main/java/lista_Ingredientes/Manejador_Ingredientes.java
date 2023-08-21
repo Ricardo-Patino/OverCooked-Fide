@@ -9,6 +9,11 @@ import java.awt.Graphics2D;
 
 import entidades.Entidades;
 
+/**
+ *
+ * @author Racha
+ */
+
 public class Manejador_Ingredientes {
     Componentes_juego cj;
     
