@@ -1,6 +1,8 @@
 package lista_Ingredientes;
-
-
+/**
+ *
+ * @author Racha
+ */
 public class Cola_Ingredientes {
     private Nodo_Ingredientes cabeza;
     private Nodo_Ingredientes ultimo;
