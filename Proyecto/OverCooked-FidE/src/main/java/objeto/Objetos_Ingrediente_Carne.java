@@ -9,7 +9,7 @@ import juego_restaurante.Componentes_juego;
 
 /**
  *
- * @author Gabriel
+ * @author Racha
  */
 
 public class Objetos_Ingrediente_Carne extends Entidades {
