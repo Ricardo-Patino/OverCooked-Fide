@@ -6,7 +6,7 @@ package objeto;
 
 /**
  *
- * @author Gabriel
+ * @author Racha
  */
 
 import entidades.Entidades;
